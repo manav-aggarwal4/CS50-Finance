@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+        <div class="mb-3">
+            <p value="{{ stocks['symbol'] }}">Symbol: {{ stocks["symbol"] }}</p>
+        </div>
+        <div class="mb-3">
+            <p value="{{ stocks['price'] }}">Price: {{ stocks["price"] }}</p>
+        </div>
+{% endblock %}
