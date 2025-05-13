@@ -2,7 +2,7 @@
 
 ## Overview
 
-The CS50 Finance Project is a web application developed as part of Harvard University's CS50 course, designed to simulate a stock trading platform. It enables users to:
+CS50 Finance is a web application designed to simulate a stock trading platform. It enables users to:
 
 - **Create and manage accounts:** Users can register with unique usernames and secure passwords, with validations to prevent duplicates.
 - **View real-time stock prices:** The application integrates with external APIs to fetch and display current stock data.
